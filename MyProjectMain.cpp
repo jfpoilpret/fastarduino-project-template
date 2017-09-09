@@ -34,22 +34,23 @@
 // as soon as the MCU is switched on or reset.
 int main()
 {
-    // DO NOT REMOVE this line!
+	// DO NOT REMOVE this line!
 	board::init();
     
-    // Add any specific initialization needed by your project before allowing interrupts
-    // Do something
+	// Add any specific initialization needed by your project before allowing interrupts
+	// Do something
 
-    // Enable interrupts
-    sei();
+	// Enable interrupts
+	sei();
+
+	// Main loop should go here
+	while (true)
+	{
+		// Do your stuff here
+	}
     
-    // Main loop should go here
-    while (true)
-    {
-        // Do your stuff here
-    }
-    
-    // Normally you should never reach the following line, but it is necessary to
-    // make the compiler happy :-)
+	// Normally you should never reach the following line, but it is necessary to
+	// make the compiler happy :-)
 	return 0;
 }
+
