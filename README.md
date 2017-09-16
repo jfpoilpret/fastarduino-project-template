@@ -21,13 +21,18 @@ This will give you the following:
     ~/electronics
         /fast-arduino-lib
         /MyProject
+            .clang-format
+            .fastarduino
             Makefile
             MyProjectMain.cpp
             README.md
+            /.vscode
 
 In "MyProject", you get a minimal project, compilable for any target supported by FastArduino. `MyProjectMain.cpp` is the main source code file, showing the barebones FastArduino project. You should start your program from there.
 
-The produced Makefile allows you to:
+The template project also comes with predefined settings for [Visual Studio Code](https://code.visualstudio.com/), along with [vscode-fastarduino extension](TODO).
+
+The produced Makefile allows you, from the command line, to:
 - build your project
 - flash it to your target MCU
 
@@ -47,6 +52,9 @@ For any operation, you must specify the MCU target by setting `CONF=<config>` in
 - ATmega328-16MHz
 - ATtinyX4
 
-TODO show examples
-TODO explain other Makefile settings (for upload)
+However, please note that direct usage of Makefile may seem complex (there are many more properties than `CONF` defined above) in comparison to using VSCode with FastArduino VSCode extension.
+
+Provided settings for VSCode include:
+- `.clang-format`: default format settings used by FastArduino library itself, that you may want to reuse for your own project, or adapt to your specific formatting guidelines.
+- `.fastarduino`: this file is expected by FastArduino VSCode extension to recognize this project as a FastArduino-based project.
 
