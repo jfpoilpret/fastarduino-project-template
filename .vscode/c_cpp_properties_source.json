@@ -6,8 +6,6 @@
                 "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include",
                 "/Applications/Arduino.app/Contents/Java/hardware/tools/avr/avr/include/avr",
                 "${workspaceRoot}/../fast-arduino-lib/cores",
-                "${workspaceRoot}/../fast-arduino-lib/cores/boards",
-                "${workspaceRoot}/../fast-arduino-lib/cores/devices",
                 "${workspaceRoot}"
             ],
             "defines": ["${VARIANT}", "F_CPU=${AVR_FREQUENCY}", "${AVR_MCU_DEFINE}"],
@@ -31,8 +29,6 @@
                 "~/avr8-gnu-toolchain-linux_x86_64/avr/include",
                 "~/avr8-gnu-toolchain-linux_x86_64/avr/include/avr",
                 "${workspaceRoot}/../fast-arduino-lib/cores",
-                "${workspaceRoot}/../fast-arduino-lib/cores/boards",
-                "${workspaceRoot}/../fast-arduino-lib/cores/devices",
                 "${workspaceRoot}"
             ],
             "defines": ["${VARIANT}", "F_CPU=${AVR_FREQUENCY}", "${AVR_MCU_DEFINE}"],
