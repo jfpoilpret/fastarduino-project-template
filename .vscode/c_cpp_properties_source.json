@@ -10,7 +10,7 @@
                 "${workspaceRoot}/../fast-arduino-lib/cores/devices",
                 "${workspaceRoot}"
             ],
-            "defines": ["ARDUINO_UNO", "F_CPU=16000000UL", "__AVR_ATmega328P__"],
+            "defines": ["${VARIANT}", "F_CPU=${AVR_FREQUENCY}", "${AVR_MCU_DEFINE}"],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
@@ -35,7 +35,7 @@
                 "${workspaceRoot}/../fast-arduino-lib/cores/devices",
                 "${workspaceRoot}"
             ],
-            "defines": ["ARDUINO_UNO", "F_CPU=16000000UL", "__AVR_ATmega328P__"],
+            "defines": ["${VARIANT}", "F_CPU=${AVR_FREQUENCY}", "${AVR_MCU_DEFINE}"],
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
