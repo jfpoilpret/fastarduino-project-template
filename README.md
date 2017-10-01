@@ -61,7 +61,9 @@ For any operation, you must specify the MCU target by setting `CONF=<config>` in
 
 First `make build` on your project will fail if you haven't built FastArduino library first.
 For this, go to the `fast_arduino_lib` directory, and type:
+
     > make CONF=<YOURCONF>
+
 This will build FastArduino library for your configuration, then you can return to your project directory and build it.
 
 ### Build with Visual Studio Code
