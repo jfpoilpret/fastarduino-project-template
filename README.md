@@ -2,7 +2,7 @@ This repository contains a minimal example project that uses FastArduino library
 
 It allows you to jump start development with FastArduino.
 
-This is targeted for linux platforms and has been tested on Ubuntu 16.04 and Fedora 26.
+This is targeted for linux platforms and has been tested on Ubuntu 16.04 and Fedora 26-29.
 
 How to use?
 ===========
