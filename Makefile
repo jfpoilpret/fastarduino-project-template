@@ -1,4 +1,4 @@
-#   Copyright 2016-2018 Jean-Francois Poilpret
+#   Copyright 2016-2019 Jean-Francois Poilpret
 #
 #   Licensed under the Apache License, Version 2.0 (the "License");
 #   you may not use this file except in compliance with the License.
@@ -25,5 +25,5 @@ ADDITIONAL_INCLUDES:=
 ADDITIONAL_LIBS:=
 
 # include generic makefile for apps
-include $(FASTARDUINO_ROOT)/Makefile-app.mk
+include $(FASTARDUINO_ROOT)/make/Makefile-app.mk
 
